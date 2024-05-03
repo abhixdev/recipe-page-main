@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="Eggshell">
+    <div class="h-screen">
+      <div class="flex flex-col space-x-5 space-y-4">
+        <div class="main-image">
+          <img
+            class="w-fit"
+            src="./assets/images/image-omelette.jpeg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <section class="recipe text-DarkCharcoal p-4">
+          <h1 class="font-serif text-4xl">Simple Omelette Recipe</h1>
+          <p class="pr-2 pt-4">
+            An easy and quick dish, perfect for any meal. This classic omelette
+            combines beaten eggs cooked to perfection, optionally filled with
+            your choice of cheese, vegetables, or meats.
+          </p>
+        </section>
+
+        <!-- Prepartion Section -->
+        <section class="preparation">
+          <div class="bg-RoseWhite mr-4 rounded-xl p-4">
+            <div class="content ml-4 mr-24">
+              <h1 class="text-DarkRaspberry text-xl font-semibold">
+                Preparation time
+              </h1>
+              <ul class="text-DarkCharcoal ml-6 mt-2 list-disc space-y-2">
+                <li>
+                  <span class="font-bold">Total:</span>
+                  Approximately 10 minutes
+                </li>
+                <li>
+                  <span class="font-bold">Preparation:</span>
+                  5 minutes
+                </li>
+                <li><span class="font-bold">Cooking:</span> 5 minutes</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Ingredients Section -->
+        <section class="ingredients">
+          <div class="mt-4 flex flex-col space-y-4 px-4">
+            <h1 class="font-serif text-Nutmeg text-2xl">Ingredients</h1>
+            <ul
+              class="text-DarkCharcoal marker:text-Nutmeg ml-8 mr-8 list-disc space-y-2"
+            >
+              <li>2-3 large eggs</li>
+              <li>Salt, to taste</li>
+              <li>Pepper, to taste</li>
+              <li>1 tablespoon of butter or oil</li>
+              <li>
+                Optional fillings: cheese, diced vegetables, cooked meats, herbs
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Line -->
+        <div class="horizontal-line">
+          <hr
+            class="bg-LightGrey mx-auto my-4 h-[2px] w-full rounded border-0"
+          />
+        </div>
+
+        <!-- Instructions Section -->
+        <section class="instructions">
+          <div class="flex flex-col space-y-4">
+            <h1 class="font-serif text-Nutmeg px-4 text-2xl">Instructions</h1>
+            <ul
+              class="text-DarkCharcoal marker:text-Nutmeg ml-8 mr-14 list-decimal space-y-2"
+            >
+              <li>
+                <span class="font-bold">Beat the eggs</span>: In a bowl, beat
+                the eggs with a pinch of salt and pepper until they are well
+                mixed. You can add a tablespoon of water or milk for a fluffier
+                texture.
+              </li>
+              <li>
+                <span class="font-bold">Heat the pan</span>: Place a non-stick
+                frying pan over medium heat and add butter or oil.
+              </li>
+              <li>
+                <span class="font-bold">Cook the omelette</span>: Once the
+                butter is melted and bubbling, pour in the eggs. Tilt the pan to
+                ensure the eggs evenly coat the surface.
+              </li>
+              <li>
+                <span class="font-bold">Add fillings (optional)</span>: When the
+                eggs begin to set at the edges but are still slightly runny in
+                the middle, sprinkle your chosen fillings over one half of the
+                omelette.
+              </li>
+              <li>
+                <span class="font-bold">Fold and serve</span>: As the omelette
+                continues to cook, carefully lift one edge and fold it over the
+                fillings. Let it cook for another minute, then slide it onto a
+                plate.
+              </li>
+              <li>
+                <span class="font-bold">Enjoy</span>: Serve hot, with additional
+                salt and pepper if needed.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Line -->
+        <div class="horizontal-line">
+          <hr
+            class="bg-LightGrey mx-auto my-4 h-[2px] w-full rounded border-0"
+          />
+        </div>
+
+        <!-- Nutrition Table Section -->
+        <section class="nutrition">
+          <div class="flex flex-col space-y-4 px-4">
+            <h1 class="font-serif text-Nutmeg text-2xl">Nutrition</h1>
+            <p class="text-DarkCharcoal mr-4">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+
+            <table class="text-sm">
+              <tbody>
+                <tr class="border-LightGrey border-b-[1px]">
+                  <td>Calories</td>
+                  <td class="text-Nutmeg font-bold">277kcal</td>
+                </tr>
+
+                <tr class="border-LightGrey border-b-[1px]">
+                  <td>Carbs</td>
+                  <td class="text-Nutmeg font-bold">0g</td>
+                </tr>
+
+                <tr class="border-LightGrey border-b-[1px]">
+                  <td>Protein</td>
+                  <td class="text-Nutmeg font-bold">20g</td>
+                </tr>
+                <tr class="border-LightGrey border-b-[1px]">
+                  <td>Fat</td>
+                  <td class="text-Nutmeg font-bold">22g</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <!-- Attribution -->
+      <div class="m-8">
+        <div class="text-center text-xs">
+          Challenge by
+          <a
+            class="text-blue-500 hover:text-grayishBlue"
+            href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H"
+            target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a
+            class="text-blue-500 hover:text-grayishBlue"
+            href="https://github.com/abhixdev"
+            target="_blank"
+            >Abhishek Kumar</a
+          >.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
