@@ -2,9 +2,6 @@
 module.exports = {
   content: ["*"],
   theme: {
-    screens: {
-      md: "375px",
-    },
     fontFamily: {
       sans: ["Outfit", "sans-serif"],
       serif: ["Young Serif", "serif"],

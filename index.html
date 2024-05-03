@@ -25,19 +25,23 @@
       rel="stylesheet"
     />
   </head>
-  <body class="Eggshell">
-    <div class="h-screen">
-      <div class="flex flex-col space-x-5 space-y-4">
+  <body class="lg:bg-Eggshell">
+    <div class="lg:flex lg:h-auto lg:items-center lg:justify-center h-screen">
+      <div
+        class="lg:mx-80 lg:space-x-0 lg:my-32 lg:p-10 lg:bg-white lg:shadow-md lg:rounded-3xl flex flex-col space-x-5 space-y-4 md:items-start"
+      >
         <div class="main-image">
           <img
-            class="w-fit"
+            class="lg:rounded-xl w-fit"
             src="./assets/images/image-omelette.jpeg"
             alt=""
             srcset=""
           />
         </div>
-        <section class="recipe p-4 text-DarkCharcoal">
-          <h1 class="font-serif text-4xl">Simple Omelette Recipe</h1>
+        <section class="recipe lg:p-0 lg:py-4 p-4 text-DarkCharcoal">
+          <h1 class="font-serif text-4xl font-semibold">
+            Simple Omelette Recipe
+          </h1>
           <p class="pr-2 pt-4">
             An easy and quick dish, perfect for any meal. This classic omelette
             combines beaten eggs cooked to perfection, optionally filled with
@@ -47,8 +51,8 @@
 
         <!-- Prepartion Section -->
         <section class="preparation">
-          <div class="mr-4 rounded-xl bg-RoseWhite p-4">
-            <div class="content ml-4 mr-24">
+          <div class="lg:pr-96 lg:mr-0 mr-4 rounded-xl bg-RoseWhite p-4">
+            <div class="content lg:mr-0 ml-4 mr-24">
               <h1 class="text-xl font-semibold text-DarkRaspberry">
                 Preparation time
               </h1>
@@ -69,8 +73,8 @@
 
         <!-- Ingredients Section -->
         <section class="ingredients">
-          <div class="mt-4 flex flex-col space-y-4 px-4">
-            <h1 class="font-serif text-2xl text-Nutmeg">Ingredients</h1>
+          <div class="lg:px-0 mt-4 flex flex-col space-y-4 px-4">
+            <h1 class="font-serif text-3xl text-Nutmeg">Ingredients</h1>
             <ul
               class="ml-8 mr-8 list-disc space-y-2 text-DarkCharcoal marker:text-Nutmeg"
             >
@@ -95,9 +99,11 @@
         <!-- Instructions Section -->
         <section class="instructions">
           <div class="flex flex-col space-y-4">
-            <h1 class="px-4 font-serif text-2xl text-Nutmeg">Instructions</h1>
+            <h1 class="lg:px-0 px-4 font-serif text-3xl text-Nutmeg">
+              Instructions
+            </h1>
             <ul
-              class="ml-8 mr-14 list-decimal space-y-2 text-DarkCharcoal marker:text-Nutmeg"
+              class="lg:mr-20 ml-8 mr-20 list-decimal space-y-2 text-DarkCharcoal marker:text-Nutmeg"
             >
               <li>
                 <span class="font-bold">Beat the eggs</span>: In a bowl, beat
@@ -142,15 +148,15 @@
         </div>
 
         <!-- Nutrition Table Section -->
-        <section class="nutrition">
-          <div class="flex flex-col space-y-4 px-4">
-            <h1 class="font-serif text-2xl text-Nutmeg">Nutrition</h1>
+        <section class="nutrition lg:pb-0 pb-12">
+          <div class="lg:px-0 flex flex-col space-y-4 px-4">
+            <h1 class="font-serif text-3xl text-Nutmeg">Nutrition</h1>
             <p class="mr-4 text-DarkCharcoal">
               The table below shows nutritional values per serving without the
               additional fillings.
             </p>
 
-            <table class="text-sm">
+            <table class="lg:mx-12">
               <tbody>
                 <tr class="border-b-[1px] border-LightGrey">
                   <td>Calories</td>
